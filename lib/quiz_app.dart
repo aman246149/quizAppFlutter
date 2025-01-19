@@ -5,14 +5,14 @@ import 'core/routing/router.dart';
 import 'core/theme/app_theme.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class WeMotionApp extends StatefulWidget {
-  const WeMotionApp({super.key});
+class QuizApp extends StatefulWidget {
+  const QuizApp({super.key});
 
   @override
-  State<WeMotionApp> createState() => _WeMotionAppState();
+  State<QuizApp> createState() => _QuizAppAppState();
 }
 
-class _WeMotionAppState extends State<WeMotionApp> {
+class _QuizAppAppState extends State<QuizApp> {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
@@ -22,7 +22,7 @@ class _WeMotionAppState extends State<WeMotionApp> {
       builder: (_, child) {
         return MaterialApp.router(
           debugShowCheckedModeBanner: false,
-          title: 'WeMotion',
+          title: 'Quiz App',
           theme: ThemeData.dark().copyWith(
             textTheme: GoogleFonts.poppinsTextTheme(ThemeData.dark().textTheme),
             appBarTheme: const AppBarTheme(

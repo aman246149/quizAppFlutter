@@ -42,6 +42,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - .env
     # Comment out images until you add some
     # - assets/images/

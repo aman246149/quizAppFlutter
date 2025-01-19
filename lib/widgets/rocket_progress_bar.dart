@@ -144,7 +144,7 @@ class RocketProgressBar extends StatelessWidget {
                       top: 0,
                       child: TweenAnimationBuilder<double>(
                         tween: Tween(begin: 0, end: progress),
-                        duration: const Duration(milliseconds: 1500),
+                        duration: const Duration(milliseconds: 4000),
                         curve: Curves.easeInOutCubic,
                         builder: (context, value, child) {
                           return Transform.translate(

@@ -1,6 +1,6 @@
 {
-     "name": "weMotion",
-     "short_name": "weMotion",
+     "name": "Quiz",
+     "short_name": "Quiz",
      "start_url": ".",
      "display": "standalone",
      "background_color": "#0175C2",

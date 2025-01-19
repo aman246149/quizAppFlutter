@@ -1,4 +1,4 @@
-package com.wemotion.app
+package com.quiz.app
 
 import io.flutter.embedding.android.FlutterActivity
 

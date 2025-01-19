@@ -23,7 +23,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace "com.wemotion.app"
+    namespace "com.quiz.app"
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
@@ -41,7 +41,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.wemotion.app"
+        applicationId "com.quiz.app"
         minSdkVersion 24 
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
